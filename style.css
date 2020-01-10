@@ -1,0 +1,89 @@
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration:none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: #B01244;
+}
+
+.Name{ font-family: 'Monoton', cursive ; 
+text-align: center; position: relative; bottom: -500px;
+    color: #B01244; 
+}
+    
+.p{ font-family: 'Monoton', cursive ; text-align: center;
+    color:#B01244; position: relative; bottom: -500px; }
+    
+.Topimage{
+  width: 100vw;
+  height: 100vh;
+  background-image: url('Cafe.jpg');
+    background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: absolute;
+}
+.Projects{
+  width: 100vw;
+  height: 100vh;
+  background-image: url('Art.jpg');
+    background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: absolute;
+}
+.Fonts{
+   font-family: 'Monoton', cursive ; text-align: center;
+    color:#0f0100; position: relative; 
+   border-style: inset;
+   background-color:#f0928b ;
+}
+.Contacts{
+  width: 100vw;
+  height: 100vh;
+  background-image: url('Light bulb.jpg');
+    background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: absolute;
+}
+.Iphone{
+   font-family: 'Monoton', cursive ; text-align: center;
+    color:#B01244; position: relative; 
+}
+
+.Label{
+ font-family: 'Monoton', cursive ; 
+    color:red; position: relative;bottom: -550px;
+    right: -570px
+}
+.Mayweather{
+   font-family: 'Monoton', cursive ; text-align: center;
+    color:black; position: relative; 
+}
+.About{
+   width: 100vw;
+  height: 100vh;
+  background-image: url('Home.jpg');
+    background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: absolute;
+}
